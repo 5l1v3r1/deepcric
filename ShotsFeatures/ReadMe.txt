@@ -1,0 +1,1 @@
+This folder contains an already built dictionary of 1000 scenes. We can use this directly with our deep learning model to check our accuracy. This dictionary cannot be used with other components except the deep learning model.
