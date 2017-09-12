@@ -1,6 +1,8 @@
 # DeepCric
 Deep Learning applied on Cricket Videos
 
+![Screenshot](https://github.com/faizann24/deepcric/blob/master/Extra%20Data/architecture_shot.jpg)
+
 ## Description
 The goal of this project is to apply deep learning models on cricket videos to generate automatic commentary for the videos. For this, we are using convolutional neural networks and long short term memory networks to first extract features from shots and then label them.
 
