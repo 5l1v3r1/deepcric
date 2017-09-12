@@ -30,7 +30,7 @@ for d in data:
 	maxActual = actual.index(max(actual))
 	predictedShot = shotsDict[maxPred]
 	imageNames = []
-	video = cv2.VideoWriter(str(resultsFolder)+str(folder)+"-"+str(predictedShot)+"-"+str(maxPredValue)+'.avi',cv2.VideoWriter_fourcc(*"XVID"),30,(width,height))
+	video = cv2.VideoWriter(str(resultsFolder)+"/"+str(folder)+"-"+str(predictedShot)+"-"+str(maxPredValue)+'.avi',cv2.VideoWriter_fourcc(*"XVID"),30,(width,height))
 	for(_,_,filenames) in walk(mainFolder+"/"+folder):
 		imageNames.extend(filenames)
 	imageNames = list((sorted([s.split(".jpg")[0] for s in imageNames])))
