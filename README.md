@@ -9,6 +9,7 @@ The code consists of several modules. Details for the modules are given below.
 
 #### Scene Segmentation
 This module segments scenes from an input video into different folders.
+
 ```Example Usage: python sceneSegmentation.py videoPath outputFolderPath```
 
 After this module has completed, the 'outputFolderPath' will contain a large number of folders where each folder will be a scene.
